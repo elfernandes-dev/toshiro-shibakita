@@ -1,8 +1,8 @@
 CREATE TABLE dados (
-    AlunoID int,
-    Nome varchar(50),
-    Sobrenome varchar(50),
-    Endereco varchar(150),
-    Cidade varchar(50),
-    Host varchar(50)
+    AlunoID INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+    Nome VARCHAR(50) NOT NULL,
+    Sobrenome VARCHAR(50) NOT NULL,
+    Endereco VARCHAR(150) NOT NULL,
+    Cidade VARCHAR(50) NOT NULL,
+    Host VARCHAR(50) NOT NULL
 );
